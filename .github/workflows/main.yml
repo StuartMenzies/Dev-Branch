@@ -37,3 +37,6 @@ jobs:
           
       - name: list current directory contents    
         run: ls -la
+        
+      - name: Run a script  
+        run: ./script.sh
