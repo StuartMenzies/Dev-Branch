@@ -38,5 +38,8 @@ jobs:
       - name: list current directory contents    
         run: ls -la
         
+      - name: change file permissions
+        run : chmod 777 script.sh
+        
       - name: Run a script  
         run: ./script.sh
